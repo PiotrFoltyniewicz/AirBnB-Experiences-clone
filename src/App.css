@@ -34,3 +34,28 @@ body {
     max-width: 80%;
     align-self: center;
 }
+
+.card{
+    max-width: 176px;
+    display: flex;
+    flex-direction: column;
+    font-size: 0.75em;
+}
+
+.card p{
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.card--ratingContainer{
+    max-width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items:baseline;
+    height: 1.5em;
+    margin-bottom: 5px;
+}
+
+.card--star{
+    max-width: 1em;
+}
