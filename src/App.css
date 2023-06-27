@@ -48,9 +48,8 @@ body {
 }
 
 .card--ratingContainer{
-    max-width: 50%;
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
     align-items:baseline;
     height: 1.5em;
     margin-bottom: 5px;
@@ -58,4 +57,8 @@ body {
 
 .card--star{
     max-width: 1em;
+}
+
+.grey{
+    color: grey;
 }
