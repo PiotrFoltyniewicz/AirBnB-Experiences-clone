@@ -35,16 +35,31 @@ body {
     align-self: center;
 }
 
+.cardContainer{
+    margin: 0 36px;
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+}
+
 .card{
     max-width: 176px;
     display: flex;
     flex-direction: column;
     font-size: 0.75em;
+    flex: 0 0 auto;  
+    position: relative;  
 }
 
 .card p{
     margin-top: 5px;
     margin-bottom: 0px;
+}
+
+.card--image{
+    max-width: 100%;
+    border-radius: 10px;
 }
 
 .card--ratingContainer{
@@ -61,4 +76,14 @@ body {
 
 .grey{
     color: grey;
+}
+
+.card--badge{
+    position:  absolute;
+    top: 6px;
+    left: 6px;
+    background-color: white;
+    padding: 5px 7px;
+    border-radius: 2px;
+    font-weight: bold;
 }
